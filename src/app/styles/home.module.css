@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300&family=Julius+Sans+One&display=swap');
+
+.headings{
+    font-family:Julius Sans One,sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    /* color: rgb(180, 179, 179); */
+    color: rgb(236 254 255 );
+    /* margin-top: 50px; */
+    text-align: center;
+}
+
+.cards{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    /* background-color: rgb(47, 55, 65); */
+    /* padding: 40px; */
+    border-radius: 10px;
+}
+
+.webbox{
+    width: 95%;
+    margin: auto;
+}
+
+.foot{
+    margin-top: 50px;
+}

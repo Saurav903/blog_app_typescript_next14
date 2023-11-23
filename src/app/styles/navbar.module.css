@@ -1,0 +1,104 @@
+@font-face {
+  font-family: Julius Sans One;
+  src: '../assest/JuliusSansOne-Regular.ttf';
+}
+
+.navdiv{
+   
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; 
+    /* width: 100%;    */
+    background: rgba(235, 235, 235, 0.9);
+}
+
+.nav{
+    max-width: 1224px;
+    margin: auto;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+/* .main{
+    width: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+} */
+
+
+/* this is for text of middle */
+
+.textall{
+    text-align: center;
+}
+
+.textall>p{
+   font-family:var(--julius-font);
+   font-weight: 700;
+   color: rgb(66, 66, 66);
+   display: inline-block;
+    position: relative;
+    
+}
+
+.textall>p:hover{
+    cursor: pointer;
+ }
+
+
+
+  .textall>p:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: 
+  #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .textall>p:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+/* this is for login */
+.textalls{
+    font-family:var(--julius-font);
+    font-weight: 700;
+    color: rgb(66, 66, 66);
+    display: inline-block;
+    position: relative;
+ }
+
+ .textalls:hover{
+    cursor: pointer;
+ }
+
+
+
+  .textalls:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: 
+  #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .textalls:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
