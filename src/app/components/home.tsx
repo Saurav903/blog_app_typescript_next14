@@ -25,6 +25,7 @@ const HomePage = async() => {
               className="max-w-sm rounded-lg shadow-2xl"
               width={300}
               height={300}
+              priority
             />
             <div>
               <p class={style.headings}>Trending</p>
