@@ -19,7 +19,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 4) About Page
 
 Below this is google analytic tag.
-
+Its all done using best tech in IT.
 <!-- Google tag (gtag.js) -->
 <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-3BQ6L4WSHE"></script>
 <script>
